@@ -5,19 +5,29 @@
 
 */
 
+.page {
+	width: 900px;
+}
 
 
 .site_menu {
     color: #878787;
-	display: flex;
-	flex-direction: row;
-	justify-content: flex-end;
-	align-items: left;
+	text-align: left;
 	background-color: #2D2D2D;
 	width: 100%;
+	padding: 30px 0 30px 30px;
 }
 
+.menu_item {
+	display: inline-block;
+	margin-right: 30px;
+}
 
+.home_header {
+	background-image: url('http://placekitten.com/g/900/600');
+	width: 900px;
+	height: 600px;
+}
 
 /*
 Menu Text: #878787 
