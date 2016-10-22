@@ -1,0 +1,37 @@
+/*p {
+    text-align: center;
+    color: red;
+}
+
+*/
+
+
+
+.site_menu {
+    color: #878787;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: left;
+	background-color: #2D2D2D;
+	width: 100%;
+}
+
+
+
+/*
+Menu Text: #878787 
+Menu Text Selected: #FFFFFF 
+Menu Top Bar: #000000 
+Menu Top Bar Selected: #E00000 
+Menu Background: #2D2D2D "Slider" 
+circles: #FFFFFF "Slider" 
+text box: #3A3A3A at 70% opacity 
+Body Background: #EAEAEA 
+Body Text: #FFFFFF when white, #000000 when black 
+Body Text Box: #3A3A3A 
+Buttons: #E00000 
+Button Text: #FFFFFF 
+Footer: #2D2D2D
+
+*/
