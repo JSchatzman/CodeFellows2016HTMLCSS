@@ -12,6 +12,7 @@ body {
 
 .page {
 	width: 900px;
+	overflow: hidden;
 }
 
 
@@ -26,6 +27,7 @@ body {
 .menu_item {
 	display: inline-block;
 	margin-right: 30px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .home_header {
@@ -77,14 +79,52 @@ body {
 	display: inline-flex;
 	flex-direction: column;
 	justify-content: center;
+	background-color: #2D2D2D;
 	width: 440px;
+	color: #fff;
 }
 
 .cat_listing {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	margin-bottom: 20px;
 }
+
+.cat_name {
+	margin-left: 20px;
+}
+
+.cat_name_heading {
+	width: 190px;
+	margin-left: 20px;
+
+}
+
+.cat_location {
+	margin-bottom: 20px;
+	margin-left: 20px;
+
+}
+
+.cat_date {
+	margin-left: 20px;
+	
+}
+
+.cat_desc {
+	margin-left: 20px;
+	
+}
+
+.copyright {
+	background-color: #2D2D2D;
+	color: #fff;
+	padding: 15px 0;
+	text-align: center;
+}
+
+
 
 
 /*
