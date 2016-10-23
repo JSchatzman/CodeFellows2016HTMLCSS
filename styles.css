@@ -124,6 +124,39 @@ body {
 	text-align: center;
 }
 
+.about_intro {
+	margin-top: 30px;
+	padding: 20px 0 10px 0;
+	background-color: #2D2D2D;
+	color: #fff;
+	text-align: center;
+	font-size:30px;
+}
+
+.about {
+	padding: 0 20px;
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: #2D2D2D;
+	width: 440px;
+	color: #fff;
+	font-size:20px;
+}
+
+.about_desc {
+	padding: 0 20px;
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: #2D2D2D;
+	width: 440px;
+	color: #fff;
+	font-size:20px;
+}
+
+
+
 
 
 
