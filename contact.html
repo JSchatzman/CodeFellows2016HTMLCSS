@@ -3,17 +3,33 @@
    <link rel="stylesheet" type="text/css" href="styles.css"/> 
 </head>
 <body>
-    <div class="site_menu"">
-        <div class="label">HOME</div>
-        <div class="label">ABOUT</div>
-        <div class="label">CONTACT</div>
-    </div>
+    <div class = "page">
+        <div class="site_menu"">
+            <a href="home.html" class="menu_item">HOME</a>
+            <a href="about.html" class="menu_item">ABOUT</a>
+            <a href="contact.html" class="menu_item">CONTACT</a>
+        </div>
     <div class="contact_header">
-        <img src='http://placekitten.com/g/200/300'>
-        <div class = "cat_chat">CAT CHAT!</div>
+        <div class="cat_chat">CAT CHAT!</div>
     </div>
-    <div class = "cat_form">Let's Talk About Cats!</div>
-    
+    <div class="cat_form_intro">Let's Talk About Cats!
+        <hr class="heading_rule">
+    </div>
+    <div class="cat_form">
+        <form class="form_input">
+            Name: &#160&#160&#160&#160&#160&#160  <input type="text" name = "firstname" class="non_message_input">
+            <br>
+            <br>
+            Email:  &#160&#160&#160&#160&#160&#160&#160 <input type="text" name = "email" class="non_message_input">
+            <br>
+            <br>
+            Subject: &#160&#160&#160&#160   <input type="text" name = "subject" class="non_message_input">
+            <br>
+            <br>
+            Message: &#160&#160 <input type="text" name = "message" class="message_input">                
+        </form>
+        <a class="submit_form">CONTACT US</a>
+    </div>
 
 </body>
 </html>
