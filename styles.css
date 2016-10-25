@@ -70,7 +70,7 @@ a {
 }
 
 .home_header {
-	background-image: url('http://placekitten.com/g/900/600');
+	background-image: url('http://placekitten.com/g/900/599');
 	width: 900px;
 	height: 600px;
 	overflow: hidden;
@@ -82,18 +82,22 @@ a {
 	flex-direction: row;
 	align-items: flex-start;
 	position:absolute;
-	top: 95%;
-	left: 40%;
+	top: 90%;
+	left: 42%;
 
 }
 
 .circle {
-	border: 1px solid #000;
+	border: 2px solid #fff;
 	border-radius: 50%;
 	width: 18px;
 	height: 18px;
 	margin: 0 4px 0 4px;
 	
+}
+
+#first_circle {
+	background-color: #fff;
 }
 
 .header_box {
@@ -240,14 +244,19 @@ a {
 	width: 900px;
 	height: 400px;
 	overflow: hidden;
+	text-align: center;
+	display: table-cell;
 }
 
 .cat_chat {
 	font-size: 50px;
-	border: 40px 80px;
-	border-color: #fff;
-	text-align: center;
-	padding:  150px;
+	border: 8px solid #fff;
+	padding:  40px 40px;
+	width: 50%;
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: 100px;
+
 }
 
 .cat_form_intro {
@@ -281,7 +290,7 @@ a {
 
 .submit_form {
 	width: 120px;
-	margin: 25px 30px 25px 505px;
+	margin: 25px 30px 0 505px;
 	padding: 15px 30px;
 }
 
