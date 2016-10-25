@@ -37,8 +37,8 @@ a {
 }
 
 .top_bar {
-	height: 8px;
-	width: 80px;
+	height: 10px;
+	width: 95px;
 }
 
 .top_red_bar {
@@ -48,6 +48,20 @@ a {
 .top_black_bar {
 	background-color: #000;
 }
+
+.social_icons {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	position: absolute;
+	right: 20px;
+	top: 25px;
+}
+
+.social_icons img {
+	margin-right: 20px;
+}
+
 
 
 .site_menu {
@@ -140,7 +154,6 @@ a {
 
 .heading_rule {
 	width: 130px;
-	margin-bottom: 20;
 }
 
 .header_content {
@@ -251,7 +264,7 @@ a {
 .cat_chat {
 	font-size: 50px;
 	border: 8px solid #fff;
-	padding:  40px 40px;
+	padding:  70px 70px;
 	width: 50%;
 	display: inline-block;
 	vertical-align: middle;
@@ -260,10 +273,10 @@ a {
 }
 
 .cat_form_intro {
-	margin-top: 25px;
-	background-color: #2D2D2D;
+	margin-top: 20px;
 	font-size: 45px;
 	text-align: center;
+	padding-top: 15px;
 
 }
 
@@ -290,7 +303,7 @@ a {
 
 .submit_form {
 	width: 120px;
-	margin: 25px 30px 0 505px;
+	margin: 25px 30px 0 528px;
 	padding: 15px 30px;
 }
 
