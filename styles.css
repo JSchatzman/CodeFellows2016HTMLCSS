@@ -4,18 +4,26 @@
 }
 
 */
-
+html {
+	padding: 0;
+	margin: 0;
+}
 body {
-	font-family: Arial, Helvetica, sans-serif
+	font-family: Arial, Helvetica, sans-serif;
 }
 
+a {
+	color: #fff;
+	text-decoration: none;
+	font-family: 'Droid Sans Mono';	
+	font-weight: 600;
+}
 
 .page {
 	width: 900px;
 	overflow: hidden;
 	color: #fff;
 }
-
 
 .site_menu {
     color: #878787;
@@ -29,6 +37,11 @@ body {
 	display: inline-block;
 	margin-right: 30px;
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: #878787;
+}
+
+#active_menu_item {
+	color:#fff;	
 }
 
 .home_header {
@@ -48,6 +61,12 @@ body {
 	padding-right: 30px;
 }
 
+.header_box p {
+	margin: 0;
+	text-align: left;
+	font-size: 20px;	
+}
+
 .button {
 	display: block;
 	margin-top: 25px;
@@ -55,10 +74,24 @@ body {
 	padding: 15px 50px;
 	cursor: pointer;
 	font-weight: bold;
+	font-weight: bold;
+	font-family: 'Helvetica';
+	color: #fff;
+	text-align: center;	
+}
+
+#home_button {
+	width: 60;
+	margin: 0 auto;
+}
+
+.button:hover {
+	color: #3d3d3d;
 }
 
 .heading_rule {
 	width: 130px;
+	margin-bottom: 20;
 }
 
 .header_content {
@@ -126,29 +159,28 @@ body {
 .about_intro {
 	margin-top: 30px;
 	padding: 20px 0 10px 0;
-	background-color: #2D2D2D;
+	background-color: #3A3A3A;
 	text-align: center;
-	font-size:30px;
+	font-size:40px;
 }
 
-.about {
-	padding: 0 20px;
-	display: inline-flex;
-	flex-direction: column;
-	justify-content: center;
-	background-color: #2D2D2D;
-	width: 440px;
-	font-size:20px;
+.about_box {
+	display:flex;
+	flex-direction: row;
+	align-items: flex-start;
+	background-color: #3A3A3A;
+	width: 900px;
 }
 
 .about_desc {
 	padding: 0 20px;
-	display: inline-flex;
-	flex-direction: column;
-	justify-content: center;
-	background-color: #2D2D2D;
-	width: 440px;
 	font-size:20px;
+	color: #fff;
+	background-color: #3A3A3A;
+}
+
+.about_desc p {
+	margin: 0;	
 }
 
 .about_header {
@@ -189,7 +221,7 @@ body {
 .form_input {
 	font-size: 20px;
 	text-align: center;
-	padding-right:30px;
+	padding:30px;
 }
 
 .non_message_input {
@@ -204,13 +236,10 @@ body {
 
 .submit_form {
 	width: 120px;
-	display: block;
 	margin: 25px 30px 25px 505px;
-	background-color: #E00000;
 	padding: 15px 30px;
-	cursor: pointer;
-	font-weight: bold;
 }
+
 
 
 
