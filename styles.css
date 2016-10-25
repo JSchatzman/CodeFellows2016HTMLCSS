@@ -20,10 +20,35 @@ a {
 }
 
 .page {
+	position: relative;
 	width: 900px;
 	overflow: hidden;
 	color: #fff;
 }
+
+.top_bars {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #E00000;
+}
+
+.top_bar {
+	height: 8px;
+	width: 80px;
+}
+
+.top_red_bar {
+	background-color: #E00000;
+}
+
+.top_black_bar {
+	background-color: #000;
+}
+
 
 .site_menu {
     color: #878787;
@@ -49,6 +74,26 @@ a {
 	width: 900px;
 	height: 600px;
 	overflow: hidden;
+	position: relative;
+}
+
+.carousel_circles {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	position:absolute;
+	top: 95%;
+	left: 40%;
+
+}
+
+.circle {
+	border: 1px solid #000;
+	border-radius: 50%;
+	width: 18px;
+	height: 18px;
+	margin: 0 4px 0 4px;
+	
 }
 
 .header_box {
